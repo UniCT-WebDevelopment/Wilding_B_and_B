@@ -1,0 +1,343 @@
+.text-primary{
+	color:white !important;
+}
+.main-panel > .content {
+    margin-top: 30px;
+    padding: 30px 15px;
+    min-height: calc(100vh - 123px);
+}
+
+.myHr{
+	margin-top:3%;
+	background-color: grey;
+	width: 88%;
+}
+
+.myHr2{
+	margin-top:1%;
+	background-color: grey;
+	width: 100%;
+}
+
+.footer{
+	background-color:black;
+	
+}
+
+#demo{
+	width: 75%;
+	height: 50%;
+	margin:auto;
+	border:8px solid white;
+	border-radius: 5px 5px;
+}
+
+#demo:hover{
+	border:9px solid #f44336 !important;
+	transition:2.5s;
+}
+
+
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+	 
+}
+
+
+
+h6{
+	margin-top:2%;
+	font-weight: normal;
+	
+}
+/**Stelline */
+.checked {
+  color: orange;
+}
+
+
+.bold{
+	margin-top:-2px;
+	font-weight: bold!important;
+	font-style: italic;
+	background:#f2f2f2;
+}
+
+.tipoCosto{
+	color:grey;
+	
+}
+
+#altreInfo{
+	font-weight: bold;
+	font-size: 1.1em;	
+}
+
+#altreInfo:hover{
+	font-weight: bold;
+	transition: 0.5s;
+	font-size: 1.2em;
+	cursor:pointer;
+	color:#f44336 !important;
+}
+
+#testoIcona{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.sidebar-wrapper{
+	background-color:white;
+}
+
+.logo{
+	background-color:white;
+}
+
+input {
+	border:none;
+}
+
+select{
+	background-color:#f8f9fa;
+	border:none;	
+}
+
+.card-header{
+	font-weight: bold;
+}
+
+#freccia{
+	font-size: 20px !important;
+	margin-left:-35%;
+	/*border: 2px solid green !important;*/
+}
+
+.infoIco{
+	font-size: 1.5em !important;
+	color:#f44336 !important;
+}
+
+/**Card di sx */
+.cardSx{
+	border: 0px solid black !important;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+	
+}
+
+.cardDx{
+	border: 0px solid black !important;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .2);
+}
+
+
+#datepickerOut{
+	/*border: 2px solid red !important;*/
+	width: 70%;
+	margin-bottom: 20%;
+}
+
+#datepickerIn{
+	/*border: 2px solid blue !important;*/
+	width: 30%;
+	margin-bottom: 10%;
+}
+
+#timepickerIn{
+	/*border: 2px solid blue !important;*/
+	width: 30%;
+	
+}
+#timepickerOut{
+	/*border: 2px solid red !important;*/
+	width: 70%;
+}
+
+#timepickerIn::placeholder{
+	font-size: 1.40em;
+
+}
+#timepickerOut::placeholder{
+	font-size: 1.40em;
+}
+
+#datepickerIn::placeholder{
+	font-size: 1.40em;
+}
+#datepickerOut::placeholder{
+	font-size: 1.40em;
+}
+
+#subBtn{
+	margin-left:-15px;	
+}
+#testoBtnSmall{
+	display:none;
+}
+
+.cheadSx{
+	font-size: 1.8em;
+
+}
+#ui-datepicker-div{
+	z-index:9999 !important; 
+}
+
+@media only screen and (min-width: 1200px) {
+#demo{
+	width: 67%;
+	transition: 1s;
+	
+}
+
+.myHr{
+	margin-top:2%;
+	background-color: grey;
+	width: 75%;
+	transition: 1.0s;
+}
+
+@media only screen and (max-width: 1200px) {
+	#datepickerIn{
+		
+		font-size: 0.60em;
+		width:100%;
+	}
+	
+	#datepickerOut{	
+		font-size: 0.60em;
+	
+		width:100%;
+	}
+	
+	#timepickerIn{
+		font-size: 0.60em;
+	
+		width:100%;
+	}
+	#timepickerOut{
+		font-size: 0.60em;
+		
+		width:100%;
+	}
+	
+	
+}
+
+#recensione{
+	border:solid rgb(128, 128, 128, .2);
+	border-width: thin;
+	font-style: italic;	
+}
+
+.boxRecensioni{
+	margin:auto;
+	width:90%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+
+#nomeStar{
+	margin:auto;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+#starsContainer{
+	margin-right:0px;
+	margin-left:30px;
+	overflow-x:hidden;
+}
+
+
+@media only screen and (max-width: 800px) {
+	
+	.avatar {
+	  margin-left:-10%;
+	 
+	}
+	#freccia{
+		display:none;
+	}
+	#subBtn{
+		width:50%;
+		overflow:hidden;
+	}
+	#testoBtn{
+		display:none;
+	}
+	
+	
+	
+	#testoBtnSmall{
+		display:inline;
+		text-align:left;
+	}
+	
+	#datepickerIn{
+		margin-top:10px;
+		margin-bottom:10px;
+		font-size: 0.72em;
+		border:1px solid grey;
+		width:100%;
+	}
+	
+	#datepickerOut{	
+		font-size: 0.72em;
+		margin-top:10px;
+		margin-bottom:10px;
+		border:1px solid grey;
+		width:100%;
+	}
+	
+	#timepickerIn{
+		font-size: 0.72em;
+		margin-top:10px;
+		margin-bottom:10px;
+		border:1px solid grey;
+		width:100%;
+	}
+	#timepickerOut{
+		font-size: 0.72em;
+		margin-top:10px;
+		margin-bottom:10px;
+		border:1px solid grey;
+		width:100%;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 500px) {
+	#datepickerIn{
+		font-size: 0.55em;
+		font-weight: bold;
+		width:100%;
+	}
+	
+	#datepickerOut{	
+		font-size: 0.53em;
+		font-weight: bold;
+		width:100%;
+	}
+	
+	#timepickerIn{
+		font-size: 0.55em;
+		font-weight: bold;
+		width:100%;
+	}
+	#timepickerOut{
+		font-size: 0.53em;
+		font-weight: bold;
+		width:100%;
+	}
+	
+	
+}
+
+
+
